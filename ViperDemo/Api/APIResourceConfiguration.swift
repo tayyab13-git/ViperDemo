@@ -1,6 +1,6 @@
 //
 //  APIResourceConfiguration.swift
-
+//
 
 import Foundation
 
