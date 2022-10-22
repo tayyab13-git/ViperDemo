@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="QuoteListCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuoteListCell" id="goY-c8-A3u" customClass="QuoteListCell" customModule="ViperDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="741" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="goY-c8-A3u" id="2OK-9q-IbM">
+                <rect key="frame" x="0.0" y="0.0" width="741" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhl-Ah-jAl">
+                        <rect key="frame" x="20" y="12" width="701" height="46"/>
+                        <string key="text">2022-04-22 13:30:56411917+0700 .[3118:59863] [] nw_protocol_get_quic_image_block_invoke dlopen libquic failed 2022-04-22 13:30:56.411917+0700 ViperDem.[3118:59863] [] nw_protocol_get_quic_image_block_invoke dlopen libquic failed</string>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Subtitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5F9-60-cKq">
+                        <rect key="frame" x="0.0" y="58" width="741" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hhl-Ah-jAl" secondAttribute="trailing" constant="20" symbolic="YES" id="53N-Od-VZt"/>
+                    <constraint firstItem="5F9-60-cKq" firstAttribute="top" secondItem="hhl-Ah-jAl" secondAttribute="bottom" id="AN5-aD-gO8"/>
+                    <constraint firstItem="hhl-Ah-jAl" firstAttribute="leading" secondItem="2OK-9q-IbM" secondAttribute="leading" constant="20" symbolic="YES" id="Qhp-xG-E9z"/>
+                    <constraint firstItem="hhl-Ah-jAl" firstAttribute="top" secondItem="2OK-9q-IbM" secondAttribute="top" constant="12" id="RQm-5T-wDI"/>
+                    <constraint firstAttribute="trailing" secondItem="5F9-60-cKq" secondAttribute="trailing" id="qwp-cF-Gec"/>
+                    <constraint firstItem="5F9-60-cKq" firstAttribute="leading" secondItem="2OK-9q-IbM" secondAttribute="leading" id="xcc-QJ-dq1"/>
+                    <constraint firstAttribute="bottom" secondItem="5F9-60-cKq" secondAttribute="bottom" constant="12" id="zE9-vX-Wl8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="5F9-60-cKq" id="ROb-5U-kLn"/>
+                <outlet property="titleLabel" destination="hhl-Ah-jAl" id="TlC-vQ-FzZ"/>
+            </connections>
+            <point key="canvasLocation" x="310.86956521739131" y="-16.071428571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

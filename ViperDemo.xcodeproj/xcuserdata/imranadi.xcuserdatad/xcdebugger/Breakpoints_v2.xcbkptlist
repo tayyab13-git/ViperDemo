@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "086130ED-EC03-4898-A40A-692AA2B6452F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "278F8673-2381-4610-B77F-B3CBC0FC3931"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "3EFE0EE9-C33D-4269-B48A-26E3874B086B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24326083-8A6A-4DA6-9295-E01CEECF71C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperDemo/Api/APIResourceConfiguration.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "asURLRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2EFA1FD-6AF4-449A-B2FB-71BFA5DD9C4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperDemo/QuoteList/QuoteListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "showQuotes(quotesArray:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2EFA1FD-6AF4-449A-B2FB-71BFA5DD9C4D - cf916402406beade"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViperDemo.QuoteListViewController.showQuotes(quotesArray: Swift.Array&lt;ViperDemo.QuoteModel&gt;) -&gt; ()"
+                  moduleName = "ViperDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imranadi/Downloads/ViperDemo/ViperDemo/QuoteList/QuoteListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "365">
+               </Location>
+               <Location
+                  uuid = "F2EFA1FD-6AF4-449A-B2FB-71BFA5DD9C4D - 428a5a23075f2499"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ViperDemo.QuoteListViewController.showQuotes(quotesArray: Swift.Array&lt;ViperDemo.QuoteModel&gt;) -&gt; ()"
+                  moduleName = "ViperDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imranadi/Downloads/ViperDemo/ViperDemo/QuoteList/QuoteListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
